@@ -11,14 +11,9 @@ The script in this project scrapes the website https://www.team-blacksheep.com f
 * A Telegram chat ID to which the updates will be sent
 ### Installation
 1. Clone the repository to your local machine
-2. Install the required modules using the following command:
-
-'''pip install -r requirements.txt
-'''
+2. Install the required modules using the following command:```pip install -r requirements.txt```
 3. Edit the apiToken and chatID variables at the beginning of the tbs_scraper.py file with your Telegram Bot API token and chat ID.
-4. Run the script using the following command:
-
-'''python tbs_scraper.py'''
+4. Run the script using the following command:```python tbs_scraper.py```
 ### Usage
 The script will scrape the Team-Blacksheep website for products listed under the 'Blowout' category, and send updates to the specified Telegram chat when new products are added, or when the price of an existing product changes. The updates will include the name of the product, its price, a link to the product page, and an image of the product.
 
